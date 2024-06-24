@@ -27,6 +27,7 @@ class _NotePageState extends State<NotePage> {
 
   // create a note
   void createNote() {
+    textController.clear();
     showDialog(
         context: context,
         builder: (context) => AlertDialog(
